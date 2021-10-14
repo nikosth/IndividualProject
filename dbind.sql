@@ -18,7 +18,7 @@ CREATE TABLE `indproj`.`messages`(
 `id` INT NOT NULL AUTO_INCREMENT,
 `sender` VARCHAR(25) NOT NULL,
 `receiver` VARCHAR(25) NOT NULL,
-`data`  VARCHAR(255) NOT NULL,
+`data`  VARCHAR(250) NOT NULL,
 `date`   date,
 PRIMARY KEY (`id`));
 
